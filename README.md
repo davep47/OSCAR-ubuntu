@@ -6,6 +6,20 @@ I was getting errors so decided to try and put together an image myself.
 
 The base image I got from https://github.com/jlesage/docker-baseimage-gui
 
+### Accessing the GUI
+
+Assuming that container's ports are mapped to the same host's ports, the
+graphical interface of the application can be accessed via:
+
+  * A web browser:
+```
+http://<HOST IP ADDR>:5800
+```
+
+  * Any VNC client:
+```
+<HOST IP ADDR>:5900
+
 Software Licensing Information
 ------------------------------
 DOCKER-OSCAR is released under the GNU GPL v3 License. Please see below for a note on giving correct attribution
