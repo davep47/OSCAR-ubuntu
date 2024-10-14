@@ -2,7 +2,7 @@
 Minimal Ubuntu image with OSCAR CPAP software
 I put this together after trying to get https://github.com/rogerrum/docker-oscar running.
 
-I was getting errors so decided to try and put together an image myself.
+I was getting errors(probably my fault :) ) so decided to try and put together an image myself.
 
 The base image I got from https://github.com/jlesage/docker-baseimage-gui
 ### Create the image
