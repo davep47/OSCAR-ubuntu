@@ -5,6 +5,8 @@ I put this together after trying to get https://github.com/rogerrum/docker-oscar
 I was getting errors so decided to try and put together an image myself.
 
 The base image I got from https://github.com/jlesage/docker-baseimage-gui
+### Create the image
+docker build -t oscar-autostart .
 
 ### Accessing the GUI
 
