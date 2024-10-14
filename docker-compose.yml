@@ -2,6 +2,7 @@ version: '2.2'
 services:
   oscar:
     image: oscar-autostart
+    container_name: oscar_ubuntu
     restart: unless-stopped
     ports:
       - 5800:5800
