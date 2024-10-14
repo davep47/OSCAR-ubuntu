@@ -6,8 +6,17 @@ I was getting errors(probably my fault :) ) so decided to try and put together a
 
 The base image I got from https://github.com/jlesage/docker-baseimage-gui
 ### Create the image
-docker build -t oscar-autostart .
+Download the repository and change to the app folder and build it.
 
+```
+docker build -t oscar-autostart .
+```
+
+### Build the docker container
+
+```
+docker-compose up -d
+```
 ### Accessing the GUI
 
 Assuming that container's ports are mapped to the same host's ports, the
@@ -21,6 +30,10 @@ http://<HOST IP ADDR>:5800
   * Any VNC client:
 ```
 <HOST IP ADDR>:5900
+```
+### Running the app for the first time
+The first time you run the app you need to create a profile by clicking on "New Profile" on the right.
+At the very least you have to enter your name.
 
 Software Licensing Information
 ------------------------------
