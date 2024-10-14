@@ -42,7 +42,7 @@ in redistribution of derivatives.
 
 It is built using Qt SDK (Open Source Edition), available from http://qt.io.
 
-Redistribution of derivatives ( a note added by Mark Watins )
+Redistribution of derivatives ( a note added by Mark Watins {OSCAR is based on Sleepyhead})
 -----------------------------
 Mark Watkins created this software to help lessen the exploitation of others. Seeing his work being used to exploit others
 is incredibly un-motivational, and incredibly disrespectful of all the work he put into this project.
