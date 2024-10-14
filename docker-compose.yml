@@ -1,0 +1,14 @@
+version: '2.2'
+services:
+  oscar:
+    image: oscar-ubuntu
+    container_name: oscar_ubuntu
+    restart: unless-stopped
+    ports:
+      - 5800:5800
+      - 5900:5900
+    volumes:
+      - ./oscar-data:/config/Documents/OSCAR_Data:rw
+      - ./SDCARD:/config/SDCARD:rw
+    environment:
+      TZ: "America/Chicago"
