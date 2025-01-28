@@ -1,9 +1,10 @@
+#this file creates the docker image used in the docker-compose
 FROM jlesage/baseimage-gui:ubuntu-20.04
 
 MAINTAINER Dave <davidm.phillips@gmail.com>
 
 LABEL Description="Ubuntu Lite Oscar Image" Vendor="dphillips" Version="1.0"
-ARG OSCAR_VERSION=1.5.3
+ARG OSCAR_VERSION=1.6.0 #replace this with the latest version
 ENV APP_NAME="OSCAR"
 
 RUN apt-get update
